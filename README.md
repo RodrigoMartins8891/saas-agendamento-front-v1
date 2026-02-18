@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🤖 SaaS de Agendamento — Frontend + Agente de IA
 
-## Getting Started
+Interface web do sistema de agendamentos com integração a um agente de Inteligência Artificial desenvolvido em Python, capaz de auxiliar usuários na criação de horários, sugestões de agenda e automações.
 
-First, run the development server:
+Este projeto demonstra integração entre frontend moderno, API backend e serviço de IA, simulando uma arquitetura próxima a aplicações SaaS reais.
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+### Frontend
+
+* React / Next.js
+* Axios para comunicação com API
+* Context API para gerenciamento de estado
+* CSS modular / Tailwind
+
+### Inteligência Artificial
+
+* Python
+* API de IA para processamento de linguagem
+* Serviço responsável por sugestões de agendamento e automações
+
+---
+
+## 🔐 Funcionalidades
+
+✔ Interface de cadastro e login
+✔ Dashboard de agendamentos
+✔ Criação e edição de horários
+✔ Integração com backend via API REST
+✔ Assistente inteligente para sugestões de agenda
+✔ Estrutura preparada para evolução SaaS
+
+---
+
+## 🧠 Agente de IA
+
+O sistema conta com um agente desenvolvido em Python responsável por:
+
+* interpretar solicitações do usuário
+* sugerir horários livres
+* auxiliar na organização da agenda
+* possibilitar futuras automações inteligentes
+
+Essa integração demonstra comunicação entre aplicações Node/Frontend e serviços Python, cenário comum em sistemas modernos.
+
+---
+
+## ▶️ Como rodar o projeto
 
 ```bash
+# clonar repositório
+git clone URL_DO_REPO
+
+# entrar na pasta
+cd projeto
+
+# instalar dependências
+npm install
+
+# rodar frontend
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Aplicação disponível em:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🤖 Como rodar o agente de IA
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+cd agente-python
+pip install -r requirements.txt
+python app.py
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+O serviço de IA será iniciado e ficará disponível para integração com o frontend.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🎯 Objetivo do projeto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Este projeto faz parte do meu portfólio como Desenvolvedor Full Stack e demonstra:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* construção de interfaces modernas
+* integração com APIs
+* comunicação entre serviços Node e Python
+* aplicação de IA em cenários reais
+* estrutura próxima a um SaaS profissional
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Rodrigo Martins**
+Focado em desenvolvimento Full Stack e soluções com IA 🚀
